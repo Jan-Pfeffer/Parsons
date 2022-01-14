@@ -1,0 +1,354 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.logo {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.links li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding: 16px;
+    cursor: pointer;
+    display: inline-flex;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+    color: #6d6c6ce7;
+}
+
+.links li a:hover {
+    color: #575757f3;
+    font-size: 18px;
+}
+
+.container-0 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(s3://pfeffcotech/media/BG/BG1.jpg);
+    background-size: cover;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.container-1 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(s3://pfeffcotech/media/BG/BG2.jpg);
+    background-size: cover;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.container-2 {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(s3://pfeffcotech/media/BG/BG3.jpg);
+    background-size: cover;
+    justify-content: space-between;
+    background-repeat: no-repeat;
+}
+
+.middle {
+    background-color: rgba(0, 0, 0, 0);
+    padding-top: 30%;
+    padding-bottom: 20%;
+    max-width: 85%;
+    text-align: center;
+    word-wrap: normal;
+}
+
+.bottom {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(37, 37, 37);
+    padding-bottom: 5%;
+    max-width: 85%;
+    text-align: center;
+    word-wrap: normal;
+}
+
+.strip {
+    min-height: 150px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.strip-middle {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    max-width: 85%;
+    text-align: center;
+    word-wrap: normal;
+}
+
+.strip-bottom {
+    text-align: center;
+    word-wrap: normal;
+    max-width: 85%;
+    text-align: center;
+    word-wrap: normal;
+    padding-bottom: 1%;
+}
+
+h1 {
+    background-color: rgba(255, 255, 255, 0.76);
+    text-align: center;
+    min-width: 400px;
+    font-size: 50px;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(37, 37, 37);
+    padding: 2%;
+    border-radius: 100px;
+}
+
+h1 a {
+    font-family: 'Cairo', sans-serif;
+    color: rgb(37, 37, 37);
+    background-color: rgba(255, 255, 255, 0);
+    text-decoration: none;
+}
+
+p {
+    background-color: rgba(255, 255, 255, 0.678);
+    padding: 5%;
+    color: rgb(19, 17, 17);
+    font-family: 'Cairo', sans-serif;
+    border-radius: 100px;
+    font-size: 24px;
+}
+
+.strip-middle h1 {
+    background-color: rgba(37, 37, 37, 0.05);
+    color: rgb(56, 55, 55);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(37, 37, 37, .01);
+}
+
+.strip-bottom p {
+    background-color: rgba(37, 37, 37, 0.05);
+    color: rgb(119, 119, 119);
+    border-radius: 150px;
+}
+
+.footer {
+    display: flex;
+    height: 50px;
+    padding-top: 5%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1850px;
+    background-color: rgba(255, 255, 255, 0.938);
+}
+
+.info {
+    padding-left: 1%;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    float: left;
+}
+
+.social-media {
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    padding-top: 7px;
+}
+
+#media-tag {
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: rgba(0, 0, 0, 0)
+}
+
+.back-to-top {
+    font-size: 24px;
+    color: rgba(39, 39, 39, 0.20);
+    margin-left: 48%;
+    position: fixed;
+    bottom: 3px;
+    background-color: rgba(172, 172, 172, 0.3);
+    border-radius: 50%;
+    border-style: none;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    width: 70px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.back-to-top:hover {
+    background-color: rgba(172, 172, 172, 0.75);
+    cursor: pointer;
+    color: rgba(39, 39, 39, 1);
+}
+
+.back-to-top:focus {
+    outline: none;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    align-self: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(37, 37, 37);
+}
+
+h4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(37, 37, 37);
+    padding: 15px;
+}
+
+h5 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(37, 37, 37);
+    padding: 13px;
+}
+
+.map {
+    align-self: center;
+}
+
+.au-container {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+#contact {
+    color: rgba(49, 49, 209, 0.87);
+    font-size: 24px;
+    font-style: italic;
+}
+
+#au-head {
+    padding-top: 40px;
+    padding-left: 2%;
+    max-width: 75%;
+    font-size: 45px;
+}
+
+#au-p {
+    padding-left: 5%;
+    padding-top: .5%;
+    padding-bottom: 2%;
+    max-width: 75%;
+    padding-right: 0%;
+    padding-bottom: 2;
+}
+
+.services {
+    padding-top: 5%;
+}
+
+#so {
+    margin-left: 10%;
+    padding-top: 20px;
+    font-size: 34px;
+    font-family: 'Cairo', sans-serif;
+    color: rgb(37, 37, 37);
+    list-style: none;
+}
+
+#no-hover {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: 0px 0px 0px rgba(155, 154, 154, 0.76);
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#fill {
+    height: 30px;
+    font-size: 26px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.15);
+    font-family: 'Cairo', sans-serif;
+}
+
+#comment {
+    font-size: 20px;
+    font-family: 'Cairo', sans-serif;
+    background-color: rgba(128, 128, 128, 0.01);
+    word-wrap: normal;
+    resize: none;
+    word-wrap: normal;
+    width: 500px;
+    height: 275px;
+}
+
+form {
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+    font-family: 'Cairo', sans-serif;
+}
+
+p7 {
+    font-size: 30px;
+}
+
+.submit {
+    background-color: rgba(119, 119, 119, 0.356);
+    color: rgb(19, 17, 17);
+    font-family: 'Cairo', sans-serif;
+    width: 10%;
+    margin-left: 40%;
+    text-align: center;
+    min-width: 20%;
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+.submit:hover {
+    background-color: rgba(172, 172, 172, 0.75);
+    cursor: pointer;
+    color: rgba(39, 39, 39, 1);
+}
+
+#fill-box {
+    font-size: 22;
+    border-width: 1px;
+    height: 30px;
+    width: 15%;
+    overflow: hidden;
+}
